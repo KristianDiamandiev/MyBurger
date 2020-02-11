@@ -11,9 +11,6 @@ const burgerIngridient = (props) => {
             ingridient = <div className={classes.BreadBottom}></div>;
             break;
         case ('bread-top'):
-            ingridient = <div className={classes.BreadTop}></div>;
-            break;
-        case ('bread-top'):
             ingridient = (
                 <div className={classes.BreadTop}>
                     <div className={classes.Seeds1}></div>
