@@ -16,6 +16,7 @@ const burger = (props) => {
         for(let i = 0; i < props.ingredients[ingredient]; i++) {
             ingredients.push(ingredient);
         }
+        return null;
     });
 
     let burgerIngredients;
